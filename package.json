@@ -4,7 +4,8 @@
   "description": "webpack and react integrate into Health .",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "first test"
+    "test": "first test",
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,24 @@
   "bugs": {
     "url": "https://github.com/githubqt/zuiwang/issues"
   },
-  "homepage": "https://github.com/githubqt/zuiwang#readme"
+  "homepage": "https://github.com/githubqt/zuiwang#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.24.0",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "postcss-loader": "^0.11.0",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
 }
