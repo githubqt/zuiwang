@@ -1,0 +1,24 @@
+{
+  "name": "zuiwang",
+  "version": "1.0.0",
+  "description": "webpack and react integrate into Health .",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "first test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubqt/zuiwang.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "health"
+  ],
+  "author": "lqt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubqt/zuiwang/issues"
+  },
+  "homepage": "https://github.com/githubqt/zuiwang#readme"
+}
