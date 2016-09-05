@@ -3,10 +3,10 @@ var webpack = require('webpack');
 
 module.exports = {
     devtool: 'eval-source-map',//配置打包测试
-    entry: __dirname + "/health/bulid/js/main.js",
+    entry: __dirname + "/src/js/index.js",
     output: {
-        path: __dirname + "/health/js",
-        filename: "bundle.js"
+        path: __dirname + "/bulid/js",
+        filename: "index.js"
     },
     resolve: {
         extensions: ['', '.js', '.jsx']
